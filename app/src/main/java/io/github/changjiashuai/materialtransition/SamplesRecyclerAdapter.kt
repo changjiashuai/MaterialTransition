@@ -27,8 +27,8 @@ class SamplesRecyclerAdapter(private val activity: Activity, private val samples
                 0 -> transitionToActivity(TransitionActivity1::class.java, sample)
                 1 -> transitionToActivity(SharedElementActivity::class.java, holder, sample)
                 2 -> transitionToActivity(AnimationsActivity1::class.java, sample)
-                3 -> ""
-                else -> ""
+                3 -> transitionToActivity(RevealActivity::class.java, holder, sample, R.string.transition_reveal1)
+//                else -> ""
             }
         }
     }

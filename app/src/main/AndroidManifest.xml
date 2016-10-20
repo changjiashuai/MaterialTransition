@@ -21,7 +21,8 @@
         <activity android:name=".TransitionActivity3" />
         <activity android:name=".SharedElementActivity" />
         <activity android:name=".AnimationsActivity1" />
-        <activity android:name=".AnimationsActivity2"></activity>
+        <activity android:name=".AnimationsActivity2" />
+        <activity android:name=".RevealActivity"></activity>
     </application>
 
 </manifest>
