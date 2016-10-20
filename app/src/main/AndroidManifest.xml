@@ -19,7 +19,9 @@
         <activity android:name=".BaseActivity" />
         <activity android:name=".TransitionActivity2" />
         <activity android:name=".TransitionActivity3" />
-        <activity android:name=".SharedElementActivity"></activity>
+        <activity android:name=".SharedElementActivity" />
+        <activity android:name=".AnimationsActivity1" />
+        <activity android:name=".AnimationsActivity2"></activity>
     </application>
 
 </manifest>

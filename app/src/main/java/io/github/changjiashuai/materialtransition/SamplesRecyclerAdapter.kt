@@ -26,7 +26,7 @@ class SamplesRecyclerAdapter(private val activity: Activity, private val samples
             when (position) {
                 0 -> transitionToActivity(TransitionActivity1::class.java, sample)
                 1 -> transitionToActivity(SharedElementActivity::class.java, holder, sample)
-                2 -> ""
+                2 -> transitionToActivity(AnimationsActivity1::class.java, sample)
                 3 -> ""
                 else -> ""
             }
