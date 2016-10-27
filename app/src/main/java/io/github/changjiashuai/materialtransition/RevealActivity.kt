@@ -23,7 +23,7 @@ import android.widget.TextView
 import io.github.changjiashuai.materialtransition.databinding.ActivityRevealBinding
 
 class RevealActivity : BaseActivity(), View.OnTouchListener {
-    
+
     override fun onTouch(v: View, event: MotionEvent): Boolean {
         if (event.action == MotionEvent.ACTION_DOWN) {
             if (v.id == R.id.square_yellow) {

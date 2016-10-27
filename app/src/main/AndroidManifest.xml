@@ -3,6 +3,7 @@
     package="io.github.changjiashuai.materialtransition">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +23,12 @@
         <activity android:name=".SharedElementActivity" />
         <activity android:name=".AnimationsActivity1" />
         <activity android:name=".AnimationsActivity2" />
-        <activity android:name=".RevealActivity"></activity>
+        <activity android:name=".RevealActivity" />
+
+        <activity
+            android:name="com.exyui.android.debugbottle.components.DTDrawerActivity"
+            android:label="调试工具"
+            android:theme="@style/Theme.AppCompat.Light" />
     </application>
 
 </manifest>
